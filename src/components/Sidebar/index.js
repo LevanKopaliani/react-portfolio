@@ -4,7 +4,12 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faGithub,
+  faLinkedin,
+  faSkype,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
   return (
@@ -38,6 +43,21 @@ const Sidebar = () => {
         <li>
           <a target="_blank" rel="noreferrer" href="https://linkedin.com">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" rel="noreferrer" href="https://github.com">
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" rel="noreferrer" href="https://youtube.com">
+            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a target="_blank" rel="noreferrer" href="https://youtube.com">
+            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
           </a>
         </li>
       </ul>
