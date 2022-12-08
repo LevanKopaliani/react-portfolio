@@ -22,6 +22,7 @@ const Logo = () => {
         drawSVG: 0,
         duration: 20,
       })
+
     gsap.fromTo(
       solidLogoRef.current,
       {
